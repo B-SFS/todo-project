@@ -5,56 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>Home</title>
+    <title>About</title>
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="icon" href="assets/Suhaib.jpg">
+    
 </head>
 <body style="margin: 0px;padding: 0px; overflow-x: hidden;">
  
-    </style>
-    <head>
-        <nav style="width: 100%;height: 60px; border: 2px solid black;display: flex;align-items: center;">
-            <div><img style="width: 150px;height: 62px;" src="./assets/todo logo.png" alt=""></div>
-            <div><h1 style="font-size: 30px;margin-left: 10px;">ITasks_Reminder</h1></div>
-            <div style="position: absolute;right: 10%;"><a style="text-decoration: none;font-size: 30px;color: black;font-weight: 600;" href="./index.html">Home</a></div>
-            <div style="position: absolute; right:3%;font-size: 25px;"><i class="fas fa-align-justify"></i></div>
-        </nav>
-    </head>
-    <main>
-        <section style="display: flex;">
-            <div style="width: 300px; height: 300px; border: 1px solid black; margin-top: 60px;margin-left: 30px;">
-                <img style="width: 100%; height: 100%;" src="./assets/Suhaib.jpg">
-                   </div>
-                   <div style="margin-top: 80px; margin-left: 50px;">
-                    <div style=" font-size: 20px;"><h3><span style=" font-size: 30px;">Name : </span>  Suhaib Firas Silwadi</h3></div>
-                    <div style=" font-size: 20px; width: 450px;"><h3><span style=" font-size: 30px;">About me : </span> I'm Suhaib Selwadi , I'm 22 , I'm a Computer Science Student and I'm a Full Stack Web Developer</h3></div>
-                   </div>
-        </section>
-        <hr>
-        <section style="display: flex; justify-content: center; align-items: center; margin-top: 100px;">
-            <form action="">
-                <div>
-                    <label style="font-size: 23px; " for="">Name</label>
-                     <input style="width: 400px;height: 30px; margin-top: 20px;" type="text" >
-                </div>
-                <div>
-                    <label style="font-size: 23px;" for="">Email</label>
-                     <input style="width:400px;height: 30px; margin-top: 20px;" type="text" >
-                </div>
-                <div>
-                    <label style="font-size: 23px;margin-left: -25px;" for="">Message</label>
-                     <input style=" margin-top: 20px;  width: 400px;height: 100px;" type="text" >
-                </div>
-                <div>
-                   
-                     <input style="margin-left: 235px;margin-top: 20px;" type="submit" >
-                </div>
-            </form>
-        </section>
-    </main>
-    <footer style="position: absolute;bottom:-250px; width: 100%;height: 100px;border: solid 2px black;display: flex;justify-content: center;align-items: center;">
-        <div style="font-size: 25px;">&copy; All Rights Reserved To Suhaib Silwadi</div>
-        <div><a style ="text-decoration: none; position: absolute; right: 130px;font-size: 25px;"   href="https://web.facebook.com/suhaib.silwadi.50">facebook</a></div>
-        <div><a style ="text-decoration: none; position:absolute; right: 20px ;font-size: 25px;"  href="https://www.instagram.com/suhaibsilwadi/">instgram</a></div>
-    </footer>
-    
+    <section class="backgroundtodo">
+        <div> 
+          <div>
+              <img src="assets/todolist.jpeg">
+              <div class="light">
+               <section>
+                      <head>
+                          <nav>
+                              <div><img src="./assets/todo logo.png" alt=""></div>
+                              <div><h1>ITasks_Reminder</h1></div>
+                              <div><a href="./index.html">Home</a></div>
+                              <div class="about"><a href="./about.html">About</a></div>
+                              <div style="position: absolute; right:3%;font-size: 25px; color: white;"><i  class="fas fa-align-justify"></i></div>
+                          </nav>
+                      </head>
+                      <main>
+                        <section style="display: flex;">
+                            <div class="aboutimg" >
+                                <img  src="./assets/Suhaib.jpg">
+                                   </div>
+                                   <div class="info">
+                                    <div><h3><span style=" font-size: 30px;">Name : </span>  Suhaib Firas Silwadi</h3></div>
+                                    <hr>
+                                    <div style=" font-size: 20px; width: 850px; line-height: 40px;"><h3><span style=" font-size: 30px;">About me : </span> I'm Suhaib Selwadi , I'm 22 , I'm a Computer Science Student and I'm a Full Stack Web Developer . <br>
+                                    Email:silwadi35@gmail.com<br>
+                                    Phone Number : 0788773537
+                                </h3></div>
+                                   </div>
+                        </section>
+                        <hr>
+                        <section class="form">
+                            <form action="">
+                                <div>
+                                    <label style="font-size: 23px; color: white;" for="">Name</label>
+                                     <input style="width: 400px;height: 30px; margin-top: 20px;margin-left: 20px; " type="text" >
+                                </div>
+                                <div>
+                                    <label style="font-size: 23px;color: white;" for="">Email</label>
+                                     <input style="width:400px;height: 30px; margin-top: 20px;margin-left: 20px;" type="text" >
+                                </div>
+                                <div>
+                                    <label style="font-size: 23px;margin-left: -25px;color: white;" for="">Message</label>
+                                     <input style=" margin-top: 20px;  width: 400px;height: 100px;margin-left: 20px;" type="text" >
+                                </div>
+                                <div>
+                                   
+                                     <input class="button" style="margin-left: 215px;margin-top: 20px;" type="submit" >
+                                </div>
+                            </form>
+                        </section>
+                    </main>
+                      <footer>
+                          <div class="copy">&copy; All Rights Reserved To Suhaib Silwadi</div>
+                          <div class="face"><a  href="https://web.facebook.com/suhaib.silwadi.50">facebook</a></div>
+                          <div class="insta"><a style =" right: 20px"  href="https://www.instagram.com/suhaibsilwadi/">instgram</a></div>
+                      </footer>
+                      
+                    </div>
+                  </div>
+                  </section> 
 </body>
 </html>
