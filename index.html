@@ -15,6 +15,7 @@
       <div> 
         <div>
             <img src="assets/todolist.jpeg">
+           
             <div class="light">
              <section>
                     <head>
@@ -27,6 +28,37 @@
                         </nav>
                     </head>
                     <main>
+                        <div class="openpupup" onclick="box()">
+                            <button>Please Click Here To Fill Some Information</button>
+                        </div>
+                        <div  class="Questions" id = "QustionsBox">
+                            <div>
+                                <div>
+                                    <img src="./assets/personalization.jpg"> 
+                                </div>
+                                <div class="cover">
+                                    <form action="">
+                                        <div>
+                                            <label style="font-size: 23px; color: white;margin-left: 30%;" for="">Please Enter Your Name</label>
+                                             <input id = "Name" style="width: 400px;height: 30px; margin-top: 20px;margin-left: 15%; " type="text" >
+                                        </div>
+                                        <div>
+                                            <label style="font-size: 23px;color: white;" for="">Please Enter Your Gender </label>
+                                            <input placeholder="Male/Female" id = "Gender" style="width:100px;height: 30px; margin-top: 20px;margin-left: 20px;" type="text" >
+                                        </div>
+                                        <div>
+                                            <label style="font-size: 23px;margin-left: px;color: white;" for="">Please Enter Your Age</label>
+                                             <input id = "Age" style=" margin-top: 20px;  width:100px;height: 20px;margin-left: 53px;" type="number" >
+                                        </div>
+                                        <div>
+                                             <input class="Questoinsbutton" style="margin-left: 190px;margin-top: 20px;" type="submit" >
+                                        <button onclick="close()" id="close" class="close"  style="margin-left: 315px;margin-top: 20px;" >Close</button>
+                                            </div>
+                                    </form> 
+                                </div>
+                            </div>
+                        
+                        </div>
                         <table>
                         <thead>
                             <tr>
@@ -70,5 +102,11 @@
       </div>
     </section>
 
+
+
+
+
+
+<script src="./js/app.js"></script>
 </body>
 </html>
