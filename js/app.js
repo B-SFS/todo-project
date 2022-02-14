@@ -46,3 +46,45 @@ function greeting(){
   }
 
  }
+
+
+
+ 
+//  function InvalidCheck(qustion1){
+//     var qustion1 = document.getElementById("Q1").value;
+//     var qustion2 = document.getElementById("Q2").value;
+//     var qustion3 = document.getElementById("Q3").value;
+//      if(qustion1 === "")
+//      {
+//          console.log("Invalid");
+//      }
+//      else{
+//          let Answers = [];
+//          Answers.push(qustion1);
+//          console.log(Answers);
+//      }
+//  }
+
+
+
+function AddingToList()
+{
+    let question1 = document.getElementById("Q1").value;
+    let question2 = document.getElementById("Q2").value;
+    let question3 = document.getElementById("Q3").value;
+    let arr = []
+    if(question1 == "")
+    {
+        arr.push("Invalid",question2,question3)
+    }
+    else if (question2 == ""){
+        arr.push(question1,"Invalid",question3)
+    }
+    else if (question3 == ""){
+        arr.push(question1,question2,"Invalid")
+    }
+    else{
+        arr.push(question1,question2,question3)
+    }
+    console.log(arr);
+}
