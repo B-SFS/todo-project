@@ -197,3 +197,41 @@ transition: 0.5s;
     background-color:rgb(4, 4, 75) ;
     color: white;
     }
+.times{
+     position: absolute;top:20px; right:20px; color: white;font-size: 25px;
+     cursor: pointer;
+    }
+.times:hover{
+   color: red;
+
+}
+.savebutton{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    right: 200px;
+    bottom:5px
+}
+.savebutton:hover{
+    width: 50px;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+
+}
+#Usergreeting{
+ height: 30px;
+ margin-left: 258px;
+ margin-top: 30px;
+ border: none;
+ cursor: pointer;
+ display: none;
+}
+#Usergreeting:hover{
+color: white;
+background-color: rgb(4, 4, 75);
+}
