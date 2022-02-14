@@ -235,3 +235,14 @@ transition: 0.5s;
 color: white;
 background-color: rgb(4, 4, 75);
 }
+.yesnoqustions{
+    color: white;
+    font-size: 20px;
+ 
+}
+.yesnoqustions div{
+    margin-top: 20px;
+}
+.yesnoqustions input{
+margin-left: 20px;
+}
